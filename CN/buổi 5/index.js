@@ -1,4 +1,4 @@
-// tại sao function trả về rồi vẫn nhận giá trị x
+// 1 tại sao function trả về rồi vẫn nhận giá trị x
 var count =0;
 function makeAdder(x){
     return function(y) {

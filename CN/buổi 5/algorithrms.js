@@ -8,14 +8,19 @@
 //     }
 //     return fib(n-1)+fib(n-2);
 // }
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
 const twoSum = function(nums, target) {
     // Your code here
-    for(var i=0;i < nums.length;i++){
+    for(var i=0;i<nums.length;i++){
       if(target == nums[i] + nums[i+1]){
-        consolose.log(i,i+1);
+        return [i,i+1];
       }
     }
-};
+}
 
 const nums = [2, 7, 11, 15];
 const target = 9;
